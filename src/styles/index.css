@@ -40,7 +40,23 @@
 .green{
     background-color: green;
 }
+.purple{
+    background-color: purple;
+}
 
 .brillo{
     box-shadow: 0px 0px 10px 8px whitesmoke;
 }
+
+.show-element {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+    background-color: rgb(225, 225, 255);
+  }
+  
+  .hide-element {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: fadeOut;
+  }
